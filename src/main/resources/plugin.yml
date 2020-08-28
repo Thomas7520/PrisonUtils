@@ -1,0 +1,20 @@
+name: PrisonUtils
+version: @version@
+main: fr.thomas7520.prisonrp.PrisonRP
+prefix: PrisonUtils
+depend: [Vault]
+authors: [Thomas7520]
+description: This plugin is created for the server PrisonRP to convert skript plugin to java plugin
+commands:
+  couvrefeu:
+    permission: loi.*
+    permission-message: Vous ne pouvez pas utiliser cette commande.
+    description: enable a curfew
+  dictature:
+    permission: loi.*
+    permission-message: Vous ne pouvez pas utiliser cette commande.
+    description: enable a dictature
+  assautrebel:
+    permission: loi.*
+    permission-message: Vous ne pouvez pas utiliser cette commande.
+    description: enable an assault in rebel camp
